@@ -1,0 +1,58 @@
+body {
+  background-color: #dfd8cd;
+  margin: 0; /* Remove default body margin */
+}
+
+img {
+  border: 10px solid #a79e95;
+  border-radius: 25px;
+  box-sizing: border-box; /* Include border in image dimensions */
+  max-width: 20%;
+}
+.box {
+  background-color: #dfd8cd;
+  text-align: center;
+  padding: 5px; /* Add padding for better spacing */
+  margin: 5px; /* Add margin for better spacing */
+}
+
+#text1 {
+  color: #131110;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: xx-large; /* Adjust font size for better emphasis */
+}
+
+#text2 {
+  color: #131110;
+  font-family: 'Playfair Display', serif; 
+  font-size: x-large; /* Adjust font size for better emphasis */
+}
+
+#text3 {
+  color: #131110;
+  font-family: 'Concert One', sans-serif;
+  font-weight: 100;
+  font-size: larger;
+}
+
+#text4 {
+  font-family: 'Dancing Script', cursive;
+  font-size: larger;
+}
+
+div.footer > p {
+  background-color: #a79e95;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0; /* Remove default margin for the footer paragraph */
+}
+
+/* Additional style for the hr element */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #a79e95, transparent);
+  margin: 20px 0; /* Add margin for better spacing */
+}
