@@ -1,0 +1,27 @@
+#text-bottom {
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  text-align: center;
+}
+
+#container {
+  width: 50%;
+  margin-left: 25%;
+
+}
+
+
+Body {
+  background-color: black;
+}
+
+img {
+  border: 2px solid white;
+  width: 100%;
+}
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&display=swap" rel="stylesheet">
