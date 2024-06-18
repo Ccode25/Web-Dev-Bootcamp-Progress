@@ -1,0 +1,65 @@
+@media (max-width: 1250px) {
+  .pricing-container {
+    flex-direction: column;
+    height: auto; /* Adjust height to fit content */
+    align-items: center; 
+  }
+  .pricing-plan {
+    width: 80%; /* Adjust width for smaller screens */
+    margin-bottom: 20px; /* Add margin between pricing plans */
+  }
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  gap: 20px;
+  overflow-y: auto; 
+  
+}
+.pricing-plan {
+  background-color: #ffffff;
+  max-width: 400px;
+  border-radius: 10px;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.plan-title {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #ff6600;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  width: 200px;
+  margin: auto; 
+  margin-bottom: 10px; 
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan-features > li{
+  margin-bottom: 20px;
+}
+
+.plan-price {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.plan-button { 
+  background-color: #ff6600;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}

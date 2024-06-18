@@ -22,12 +22,11 @@ let gamePattern = [];
 // Function to generate next sequence color
 
 function nextSequence () {
-  let button = $(this);
   randomNumbers = Math.floor(Math.random() * 4);
   let randomColour = buttonColour[randomNumbers];
   gamePattern.push(randomColour);
   playSound(randomColour); 
-  button.animate({ opacity: 0 }, 20).animate({ opacity: 1 }, 100);
+
 }
 
 let gameLevel = 2;
