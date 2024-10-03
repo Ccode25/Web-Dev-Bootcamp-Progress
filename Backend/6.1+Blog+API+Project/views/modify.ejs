@@ -11,7 +11,7 @@
 <body>
   <div class="container">
     <h1>
-      <%= heading %>
+      <%= locals.heading %>
     </h1>
 
     <% if (locals.posts) { %>
@@ -20,7 +20,7 @@
         <textarea name="content" rows="10"><%=posts.content %></textarea>
         <input type="text" name="author" value="<%=posts.author %>">
         <button class="full-width" type="submit">
-          <%= submit %>
+          Submit
         </button>
       </form>
       <% } else {%>
@@ -29,7 +29,7 @@
           <textarea name="content" placeholder="Content" required rows="10"></textarea>
           <input type="text" name="author" placeholder="Author" required>
           <button class="full-width" type="submit">
-            <%= submit %>
+            Submit
           </button>
         </form>
         <% } %>
